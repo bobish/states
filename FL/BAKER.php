@@ -17,7 +17,7 @@ function split_name($string)
 	$string = str_replace(" & "," AND ",trim($string));
 	
 	$string = explode(" AND ",$string)[0];
-	
+	$string = explode(" OR ",$string)[0];
     $arr = explode(' ', $string);
     $num = count($arr);
     
