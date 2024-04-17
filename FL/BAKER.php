@@ -4,7 +4,7 @@ use Facebook\WebDriver\WebDriverKeys;
 use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverExpectedCondition;
 
-$app_name = $batchDetails->borrowerName;
+$app_name = $batchDetails->borrowerName1;
 $loan_amt = $batchDetails->loanAmount;
 $loan_dt = $batchDetails->loanDate;
 
