@@ -47,7 +47,7 @@ try {
 	
 	echo $app_name." : ".$batchDetails->county."\n";
 
-	$url = "http://208.75.175.18/landmarkweb";
+	$url = "http://208.75.175.18/landmarkwe";
 	$driver->get($url);
 		
 	$driver->wait()->until(
